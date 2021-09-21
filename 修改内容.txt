@@ -1,0 +1,11 @@
+2021-09-21
+1.修改设置，默认语言设置为中文（Settings.cs）
+2.修改设置：上次搜索关键字模式=清空上次搜索关键字执行逻辑为隐藏窗体时触发，原逻辑为显示的时候触发，这样会有闪烁现象。(MainViewModel/MainWindow.xaml.cs)
+	处理了三种情况：
+		1：执行命令后立即清空
+		2：失去焦点清空后隐藏（需延时+异步） 
+		3：按Esc时清空并隐藏（需异步）
+3.修复托盘右键菜单没有中文化的问题(Internationalization.cs/MainWindow.xaml.cs)
+4.添加设置：是否关闭输入法。启用时，默认弹出窗口自动切换输入法为英文。（Settings.cs/SettingWindow.xaml/MainViewModel.cs）
+
+

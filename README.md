@@ -1,6 +1,6 @@
 Wox Suyana修改版
 ===
-此根据WoX (https://github.com/Wox-launcher/Wox)修改。
+此根据WoX (https://github.com/Wox-launcher/Wox) 修改。
 感谢原作者的辛劳付出。
 根据个人习惯添加和修改一些内容，没有合并到Wox原因有：
 - 不会... 
